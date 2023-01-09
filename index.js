@@ -9,7 +9,6 @@ http
     res.end();
   })
   .listen(4040, () => console.log('server is running....'));
-console.log('server is running...');
 fs.appendFile('test.txt', 'The AppendFile', (err, data) => {
   console.log('hello world', data, err);
 });
